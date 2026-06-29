@@ -42,3 +42,31 @@ Perform a thorough Exploratory Data Analysis on a retail sales dataset to uncove
 
 ## 🔗 Internship
 Oasis Infobyte Data Analytics Internship — Level 1 Task 1
+# 🛍️ Customer Segmentation — Level 1 Task 2
+
+## 📌 Objective
+Segment customers into distinct groups using KMeans clustering based on purchasing behaviour.
+
+## 🛠️ Tech Stack
+Python, Pandas, Scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
+
+## 📊 Dataset
+1000 customers with Age, Gender, Annual Income, Spending Score.
+
+## 📈 Steps
+- Data cleaning & null handling
+- Feature scaling with StandardScaler
+- Elbow Method → Optimal K = 4
+- KMeans clustering
+- Scatter plots & cluster profiling
+
+## 👥 Cluster Summary
+| Cluster | Type | Strategy |
+|---------|------|----------|
+| 0 | Budget-conscious | Discounts & loyalty programs |
+| 1 | Impulsive buyers | Flash sales & trendy products |
+| 2 | Potential high-value | Premium campaigns |
+| 3 | VIP customers | Exclusive memberships |
+
+## 🔗 Internship
+Oasis Infobyte Data Analytics Internship — Level 1 Task 2
