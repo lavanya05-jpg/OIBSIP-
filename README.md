@@ -101,3 +101,38 @@ Housing dataset with 545 rows and 13 columns including price, area, bedrooms, ba
 
 ## 🔗 Internship
 Oasis Infobyte Data Analytics Internship — Level 1 Task 3
+# 🏠 House Price Prediction — Level 2 Task 1
+
+## 📌 Objective
+Build and evaluate a linear regression model to predict house prices based on features such as area, location, number of rooms, and amenities.
+
+## 🛠️ Tech Stack
+Python, Pandas, Scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
+
+## 📊 Dataset
+Housing dataset with 545 rows and 13 columns.
+
+## 🔧 Steps
+- EDA & null check
+- One-Hot Encoding of categorical features
+- Correlation heatmap
+- Train/Test split (80/20)
+- Linear Regression, Ridge & Lasso models
+- Evaluation: MSE, RMSE, R² Score
+- Scatter plot: Actual vs Predicted
+- Residual plot
+- Coefficient analysis
+
+## 🏆 Results
+| Model | R² Score |
+|-------|----------|
+| Linear Regression | Best performer |
+| Ridge | Comparable |
+| Lasso | Comparable |
+
+## 💡 Key Insight
+Bathrooms and airconditioning have the highest positive impact on house prices.
+
+## 🔗 Internship
+Oasis Infobyte Data Analytics Internship — Level 2 Task 1
+
