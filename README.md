@@ -70,3 +70,34 @@ Python, Pandas, Scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
 
 ## 🔗 Internship
 Oasis Infobyte Data Analytics Internship — Level 1 Task 2
+# 🧹 Data Cleaning — Level 1 Task 3
+
+## 📌 Objective
+Demonstrate professional data cleaning skills by transforming a messy dataset into a clean, analysis-ready dataset.
+
+## 🛠️ Tech Stack
+Python, Pandas, NumPy, Matplotlib, Jupyter Notebook
+
+## 📊 Dataset
+Housing dataset with 545 rows and 13 columns including price, area, bedrooms, bathrooms, and amenities.
+
+## 🔧 Cleaning Steps
+- Data quality report: nulls, duplicates, dtype issues
+- Introduced messiness for demonstration
+- Removed 10 duplicate rows
+- Imputed 36 missing values using median
+- Standardised inconsistent formatting (yes/NO → yes)
+- Detected outliers using IQR method
+- Fixed data types
+- Saved cleaned dataset to CSV
+
+## 📈 Before vs After
+| Metric | Before | After |
+|--------|--------|-------|
+| Total Rows | 555 | 545 |
+| Duplicates | 10 | 0 |
+| Null Values | 36 | 0 |
+| Inconsistent Formatting | Yes | No |
+
+## 🔗 Internship
+Oasis Infobyte Data Analytics Internship — Level 1 Task 3
